@@ -1,0 +1,113 @@
+body {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position:absolute;
+}
+
+.mainBloc {
+    top: 0;
+    bottom: 0;
+    right: 8%;
+    left: 8%;
+    position:absolute;
+    background-color: rgb(240, 231, 231);
+    height: 100%;
+}
+
+.bloc1 {
+    display: flex;
+    height: auto;
+    width: 100%;
+    box-shadow: 1px 1px 15px 5px rgba(31, 73, 125, 0.8);
+    
+    .photoProfil {
+        display: flex   ;
+        img{
+            display: flex;
+            height: 489px;
+        width: 489px;
+        }
+
+        
+    }
+    
+    .infos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        height: 100%;
+        width: 100%;
+        padding-bottom: 1%;
+
+
+        .texte{
+            display: flex;
+            flex-direction: column;
+            padding-left: 10%;
+            height: 90%;  
+
+        }
+          
+        .socials {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 40%;
+            padding-left: 10%;
+            height: 10%;
+            img{
+                display: flex;
+                flex-direction: row;
+                height: 45px;
+             width: 45px;
+            }
+        }
+    }
+
+}
+
+.bloc2 {
+    display: flex;
+    height: 85%;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(240, 231, 231);
+    box-shadow: 1px 0px 15px 5px rgba(31, 73, 125, 0.8);
+
+    .mainSkills{
+        display: flex;
+        padding-bottom: 10%;
+    }
+
+    .skills {
+        display: flex;
+        height:30%;
+        padding-left: 45%;
+        padding-top:2%;
+    }
+
+    #skills1{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    #skills2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    }
+    li {
+        width: 100%;
+    }
+
+.jaune{
+    font-size: 30px;
+    color: yellow;
+}
+
+
